@@ -1,0 +1,22 @@
+body {
+  background-color: rgb(255, 255, 250);
+}
+.container {
+  height: 300px;
+  max-width: 600px; 
+  border: 2px solid black;
+  border-radius: 20px;
+  background-color: rgb(255,255,225);  
+  text-align: center;
+  padding-top: 70px;  
+}
+
+img, h3 {
+ display: inline-block;
+}
+
+@media only screen and (min-height: 300px) {
+  .container {
+    margin-top: calc((100vh - 300px) / 2);
+  }
+}
